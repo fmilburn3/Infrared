@@ -30,7 +30,7 @@
  */
 #include "msp430g2553.h"
 
-// Note:  A0CLK running at 2 MHz
+// Note:  A0 Timer running at 2 MHz
 #define T0min   400*2                       // min "0" pulse
 #define T0max   750*2                       // max "0" pulse - should be ~ 620 uSec
 #define T1min   850*2                       // min "1" pulse
